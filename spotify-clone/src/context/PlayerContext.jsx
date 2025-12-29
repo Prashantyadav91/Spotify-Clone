@@ -9,7 +9,7 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef()
     const seekBar = useRef()
 
-    const url = "http://localhost:4000";
+    const url = "https://spotify-clone-backend-j3bh.onrender.com";
     const [songsData, setSongsData] = useState([])
     const [albumsData, setAlbumsData] = useState([])
 
